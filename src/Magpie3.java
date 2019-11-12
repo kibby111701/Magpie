@@ -80,11 +80,7 @@ public class Magpie3 {
 
 			// If before and after aren't letters, we've
 			// found the word
-			if (((before.compareTo("a") < 0) || (before.compareTo("z") > 0)) // before
-																				// is
-																				// not
-																				// a
-																				// letter
+			if (((before.compareTo("a") < 0) || (before.compareTo("z") > 0)) // before is not a letter
 					&& ((after.compareTo("a") < 0) || (after.compareTo("z") > 0))) {
 				return psn;
 			}

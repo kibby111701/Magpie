@@ -22,6 +22,9 @@ public class StringExplorer {
 		int notFoundPsn = sample.indexOf("slow");
 		System.out.println("sample.indexOf(\"slow\") - " + notFoundPsn);
 
+		int newIndex = sample.indexOf("quick", 12);
+		System.out.println(newIndex);
+
 	}
 
 }
